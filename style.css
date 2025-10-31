@@ -1,0 +1,272 @@
+/*
+Theme Name: Astra Child
+Template: astra
+Version: 1.0.0
+Text Domain: astra-child
+Description: Thème enfant basé sur Astra (footer personnalisé).
+*/
+
+/* FOOTER */
+
+.astra-child-footer {
+  background: #f4f8fb;
+  color: #222b45;
+  padding: 36px 0 0;
+  border-top: 1px solid #dbeafe;
+}
+
+.footer-inner {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0 16px 24px;
+}
+
+.footer-logo {
+  font-weight: 700;
+  font-size: 26px;
+  color: #2563eb;
+  margin-bottom: 10px;
+}
+
+.footer-text {
+  color: #475569;
+  font-size: 15px;
+  margin-bottom: 12px;
+}
+
+.footer-col {
+  min-width: 160px;
+  flex: 1 1 180px;
+}
+
+.footer-col h4 {
+  font-size: 15px;
+  font-weight: 600;
+  color: #2563eb;
+  margin-bottom: 10px;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-col ul li {
+  margin-bottom: 6px;
+}
+
+.footer-col a {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+
+.footer-bottom {
+  background: #f4f8fb;
+  color: black;
+  padding: 12px 16px;
+  margin-top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+  border-radius: 0 0 8px 8px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.socials {
+  display: flex;
+  gap: 10px;
+}
+
+.socials a {
+  color: #fff;
+  background: #0e7490;
+  font-size: 16px;
+  width: 30px;
+  height: 30px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+/* modifs css */
+
+
+
+
+
+
+
+body {
+    font-family: "comic";
+    font-size: 17px;
+    line-height: 1.8;
+    color: #222;
+}
+
+
+.ast-theme-transparent-header .main-header-bar, .ast-theme-transparent-header.ast-header-break-point .main-header-bar-wrap .main-header-menu, .ast-theme-transparent-header.ast-header-break-point .main-header-bar-wrap .main-header-bar, .ast-theme-transparent-header.ast-header-break-point .ast-mobile-header-wrap .main-header-bar {
+    background-color: black;
+}
+
+.wp-block-uagb-advanced-heading.uagb-block-8d6a8e5b.wp-block-uagb-advanced-heading .uagb-heading-text {
+    color: black;
+}
+
+
+.wp-block-uagb-buttons .uagb-block-4ea9af6d .uagb-button__wrapper .uagb-buttons-repeater.wp-block-button__link {
+ background-color: black;
+}
+
+
+.wp-block-uagb-buttons .uagb-block-4ea9af6d .uagb-buttons-repeater .uagb-button__link {
+    color: white;
+}
+
+
+
+
+
+
+
+/* header */
+
+
+.clean-header {
+  background: #222b45;
+  padding: 18px 32px;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  box-shadow: 0 4px 18px rgba(37,99,235,0.07);
+}
+
+.clean-header__inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.clean-header__logo img {
+  height: 44px;
+  width: auto;
+  display: block;
+  filter: brightness(1.2) drop-shadow(0 2px 8px #2563eb33);
+}
+
+.clean-header__nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 36px;
+  margin: 0;
+  padding: 10px 32px;
+  background: #fff;
+  border-radius: 999px;
+  box-shadow: 0 6px 18px rgba(37,99,235,0.08);
+}
+
+.clean-header__nav a {
+  text-decoration: none;
+  color: #222b45;
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 6px 12px;
+  border-radius: 6px;
+}
+
+
+
+.clean-header__actions {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.clean-header__link {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  padding: 6px 14px;
+  border-radius: 6px;
+}
+
+.clean-header__link:hover {
+  background: #2563eb;
+  color: #fff;
+}
+
+.clean-header__cta {
+  background-color: white ;
+  border: none;
+  color: #222b45;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 10px 28px;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: background 0.22s, color 0.18s, transform 0.18s;
+  box-shadow: 0 4px 12px rgba(37,99,235,0.10);
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+}
+
+.clean-header__cta:hover {
+  background: linear-gradient(90deg, #2563eb 0%, #fde047 100%);
+  color: #fff;
+  transform: translateY(-2px) scale(1.04);
+}
+
+
+ /* hook */
+
+.custom-message-hook {
+  position: absolute;
+  left: 50%;
+  top: 48px;
+  transform: translateX(-50%);
+  background: #ffb81c;
+  color: #222b45;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(37,99,235,0.08);
+  padding: 18px 32px;
+  z-index: 10;
+  width: auto;
+  max-width: 90vw;
+  margin-top: 23rem;
+  margin-left: 20rem;
+}
+
+.hero-section, .wp-block-cover, .elementor-section {
+  position: relative;
+}
+
